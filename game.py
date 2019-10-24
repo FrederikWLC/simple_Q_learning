@@ -44,5 +44,3 @@ for e in range(episodes):
             break
     # train the agent with the experience of the episode
     agent.replay(32)
-# Finally, save the weights of the agent
-agent.save_model("cartpole_model.h5")
